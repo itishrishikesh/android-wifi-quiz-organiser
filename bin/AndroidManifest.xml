@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizorganizer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AddQuestion"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".Participant"
+            android:label="@string/title_activity_participant" >
+        </activity>
+        <activity
+            android:name=".ListQuestions"
+            android:label="Questions" >
+        </activity>
+        <activity
+            android:name=".Select"
+            android:label="@string/title_activity_select" >
+        </activity>
+        <activity
+            android:name=".QuestionManagement"
+            android:label="@string/title_activity_question_management" >
+        </activity>
+        <activity
+            android:name=".ClientList"
+            android:label="@string/title_activity_client_list" >
+        </activity>
+        <activity
+            android:name=".UserName"
+            android:label="@string/title_activity_user_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".HelpScreen"
+            android:label="@string/title_activity_help_screen" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
