@@ -13,10 +13,11 @@ There are three primary Modules in the application:
     The Question Store is Question Management System which helps user to manipulate question in the database.
 
 # How the connection is established between Host and Participant:
-    I have used java's tcp programming. But in this case the Host instatiates the connection from the host device.
-    which is inturn accepted by participant sides ServerSocket object.
-  This idea of mine(instantiating from the host side migt be a total mess up) but I didn't found a way to it.
+I have used java's tcp programming. But in this case the Host instatiates the connection from the host device.
+Which is inturn accepted by participant sides ServerSocket object.
+Note : This idea of mine(instantiating from the host side migt be a total mess up) but I didn't found a way to it.
 
+# Final Notes
 This is the first ever software thing I ever created so I might have made unprofessional mistakes.
 Sorry for that, I will appreciate if you point them out.
 
