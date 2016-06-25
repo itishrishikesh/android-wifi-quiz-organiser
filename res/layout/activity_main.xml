@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:dividerPadding="10dp"
+    android:gravity="fill_vertical"
+    android:orientation="vertical"
+    android:showDividers="none|beginning|middle|end"
+    tools:context="${relativePackage}.${activityClass}" >
+<EditText
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/que"
+   android:hint="@string/Qhint"
+   android:inputType="textAutoComplete"
+   android:layout_margin="5dp"
+ /> 
+
+ <EditText
+     android:id="@+id/optA"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="@string/optAhint"
+     android:inputType="textShortMessage"
+     android:layout_margin="5dp"
+      />
+
+ <EditText
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/optB"
+   android:hint="@string/optBhint"
+   android:inputType="textShortMessage"
+   android:layout_margin="5dp"
+ />
+ <EditText
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/optC"
+   android:hint="@string/optChint"
+   android:inputType="textShortMessage"
+   android:layout_margin="5dp"
+ />
+ <EditText
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/optD"
+   android:hint="@string/optDhint"
+   android:inputType="textShortMessage"
+   android:layout_margin="5dp"
+ />
+<EditText
+     android:id="@+id/ans"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="@string/Anshint"
+     android:inputType="textCapCharacters"
+     android:lines="1"
+     android:maxLength="1"
+     android:layout_margin="5dp"
+     >
+ </EditText>
+
+ <Button
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/set_time"
+   android:text="@string/submit"
+   android:layout_margin="5dp"
+   />
+
+</LinearLayout>

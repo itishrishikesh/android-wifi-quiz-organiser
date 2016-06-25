@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/addQ"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/addQ"
+        android:layout_margin="20dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/addQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lv2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lv2"
+        android:layout_margin="20dp"
+        android:text="Add Question" />
+
+</RelativeLayout>

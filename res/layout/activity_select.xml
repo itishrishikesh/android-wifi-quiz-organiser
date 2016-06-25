@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/host"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Host"
+        android:textSize="20sp" />
+
+	<Button
+	    android:id="@+id/participant"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/host"
+	    android:text="Participate"
+	    android:layout_margin="20dp"
+	    android:textSize="20sp"
+	     />
+	
+	<Button
+	    android:id="@+id/addQue"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@id/participant"
+	    android:layout_margin="20dp"
+	    android:text="Question Store"
+	    android:textSize="20sp" />
+
+</RelativeLayout>

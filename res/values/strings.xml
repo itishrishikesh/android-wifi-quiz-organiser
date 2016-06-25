@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz Organizer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Qhint">Question</string>
+    <string name="optAhint">OptionA</string>
+    <string name="optBhint">OptionB</string>
+    <string name="optChint">OptionC</string>
+    <string name="optDhint">OptionD</string>
+    <string name="Anshint">A/B/C/D</string>
+    <string name="submit">Store Question</string>
+    <string name="title_activity_participant">Anwer Below Question</string>
+    <string name="title_activity_question_list">Select Question to be Sent</string>
+    <string name="title_activity_set_time_dialog">SetTimeDialog</string>
+    <string name="title_activity_select">Main Menu</string>
+    <string name="title_activity_question_management">Manage Questions</string>
+    <string name="title_activity_client_list">ClientList</string>
+    <string name="title_activity_user_name">Enter Username</string>
+    <string name="title_activity_result">Final Results</string>
+    <string name="title_activity_main">Add Questions</string>
+    <string name="title_activity_help_screen">Help</string>
+    <string name="title_activity_about">About</string>
+    <string name="help1">Hosting a Quiz</string>
+    <string name="help2">To host a quiz press the host button from the main menu it will create a hotspot network with your name. Tell every participant to, connect to your quiz\'s network.</string>
+    <string name="help3">Participating in a Quiz</string>
+    <string name="help4">To participate in a quiz press the Participate button from the Main Menu.  It will open a screen presenting you with wifi network names available at your surrounding. Find the name of the quiz network that you want join in, then again open the application press the participate button again and wait for receiving questions.</string>
+    <string name="help5">Question Store</string>
+    <string name="help6">This part will allow you to store questions which, you will be able to send to the participant when you will organise your quiz. To Add, Modify and Delete Questions you just need to Press the Question Store button from the Main Menu.</string>
+    <string name="about">Quiz Organizer is an application that will help you organise small quiz events with the help of built-in wifi hotspot functionality of your smartphone.</string>
+
+</resources>
