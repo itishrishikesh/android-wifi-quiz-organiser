@@ -1,6 +1,7 @@
-# Wifi-Quiz-Orgainiser
+# android-wifi-quiz-orgainiser
 
-This Application will help in organizing quiz by using Android smartphone alone, it will use the Android's portable wifi hotspot and wifi connectivity to establish a wifi lan.
+What does it do?
+==> creates a wifi lan and you can host and participate in the quiz...
 
 There are three primary Modules in the application:
 
@@ -25,8 +26,6 @@ Note : This idea of mine i.e., instantiating connection from the host side might
 # Final Notes
 This is the first ever software thing I ever created so I might have made a bunch of mistakes.
 Sorry for that, I will appreciate if you point them out.
-
-Thank you for showing your interest.
 
 
 
