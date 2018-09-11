@@ -21,12 +21,6 @@ There are three primary Modules in the application:
 I have used java's tcp programming. But in this case the Host instatiates the connection from the host device.
 Which is inturn accepted by participant sides ServerSocket object.
 
-Note : This idea of mine i.e., instantiating connection from the host side might be a total mess up, but I didn't found a way to it.
-
-# Final Notes
-This is the first ever software thing I ever created so I might have made a bunch of mistakes.
-Sorry for that, I will appreciate if you point them out.
-
 
 
 
